@@ -1,0 +1,1578 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/******************* BODY **************************/
+
+
+
+/* color */
+
+/* orange #f98561 */
+
+/* blue #2190c1 */
+
+
+
+body {
+
+	font-size: 11px;
+
+	color: #515862;
+
+	min-width: 320px;
+
+}
+
+
+
+/******************* HEADER ************************/
+
+
+
+.top-menu {
+
+    height: 80px;
+
+}
+
+
+
+.top-menu .nav {
+
+    padding-left: 60px;
+
+    font-family: 'Ubuntu', sans-serif;
+
+    font-size: 14px;
+
+}
+
+
+
+.top-menu img {
+
+    padding-top: 30px;
+
+    padding-left: 110px;
+
+}
+
+     
+
+.top-menu .nav li a {
+
+    color: #515862;
+
+    display: inline-block;
+
+    padding: 30px 20px 15px 20px;
+
+    margin-left: -11px;
+
+    border-bottom: 14px solid #fff;
+
+}
+
+    
+
+.top-menu .nav a:hover {
+
+    font-family: 'UbuntuBold',sans-serif;
+
+    background-color: #2190c1;
+
+    color: #c5f4ff;
+
+    text-decoration:none;
+
+    border-bottom: 14px solid #0080b7;
+
+}
+
+
+
+.top-menu .nav a:focus {
+
+    text-decoration: none;
+
+}
+
+
+
+.top-menu .nav a::after {
+
+    display:block;
+
+    content:attr(title);
+
+    font-family: 'UbuntuBold',sans-serif;
+
+    height:1px;
+
+    color:transparent;
+
+    overflow:hidden;
+
+    visibility:hidden;
+
+}
+
+
+
+.top-menu .nav button {
+
+    color: #fff;
+
+    background-color: #f98561;
+
+    border: none;
+
+    padding: 3px 20px;    
+
+    border-radius: 5px;
+
+    position: relative;
+
+    top: -5px;
+
+}
+
+
+
+.top-menu .nav button:hover {
+
+    background-color: #2190c1;
+
+    transition: 0.5s;
+
+}
+
+
+
+.top-menu .search {
+
+    padding-top: 32px;
+
+    padding-left: 30px;
+
+}
+
+
+
+.top-menu .search p {
+
+    font-family: 'Ubuntu', sans-serif;
+
+    font-size: 12px;
+
+    color: #515862;
+
+}
+
+
+
+.top-menu .search input[type="image"] {
+
+    position: absolute;
+
+    top: 24px;
+
+    right: 140px;
+
+}
+
+
+
+.top-menu .search input[type="search"] {
+
+    border: none;
+
+    max-width: 70px;
+
+}
+
+
+
+.top-menu .search input[type="search"]:focus, /**** focus Chrome ****/
+
+.top-menu .search input[type="image"]:focus { 
+
+    outline: none; 
+
+}
+
+
+
+/******* MENU-XS  ********/
+
+
+
+.top-menu-xs {
+
+    display: none;
+
+}
+
+
+
+.top-menu-xs .row {
+
+    margin-right: 0;
+
+    margin-right: 0;
+
+}
+
+
+
+.top-menu-xs .logo-img {
+
+    position: absolute;
+
+    padding-top: 8px;
+
+    padding-bottom: 5px;
+
+    left: 100px;
+
+}
+
+
+
+.top-menu-xs .glyphicon {
+
+    font-size: 30px;
+
+    margin-left: 10px;
+
+    margin-top: 2px;
+
+    border: none;
+
+    background: transparent;
+
+}
+
+
+
+.top-menu-xs .btn-group.open .dropdown-toggle {
+
+    -webkit-box-shadow: none;
+
+    box-shadow: none;   
+
+}
+
+
+
+.top-menu-xs .glyphicon-remove {
+
+    display: none;
+
+}
+
+
+
+.top-menu-xs .btn-group.open .glyphicon-align-justify {
+
+    display: none;  
+
+}
+
+
+
+.top-menu-xs .btn-group.open .glyphicon-remove {
+
+    display: block;  
+
+}
+
+
+
+.top-menu-xs .dropdown-menu {
+
+    position: relative;
+
+    border: none;
+
+    box-shadow: none;
+
+    width: 100%;
+
+}
+
+
+
+.top-menu-xs ul li {
+
+    border-bottom: 1px solid #f0f0f0;
+
+}
+
+
+
+.top-menu-xs ul li a {
+
+    font-weight: bold;
+
+    padding-top: 5px;
+
+    padding-bottom: 5px;
+
+}
+
+
+
+.top-menu-xs ul li a:hover {
+
+    color: #f98561;
+
+}
+
+
+
+.top-menu-xs ul li > button {
+
+    color: #fff;
+
+    background-color: #f98561;
+
+    border: none;
+
+    padding: 3px 20px;    
+
+    border-radius: 5px;
+
+    margin-left: 20px;
+
+    margin-top: 10px;
+
+}
+
+
+
+.top-menu-xs ul li button:hover {
+
+    background-color: #2190c1;
+
+}
+
+
+
+.top-menu-xs ul li:nth-child(5) {
+
+    border-bottom: none;
+
+}
+
+
+
+.top-menu-xs ul li:nth-child(6) {
+
+    border-bottom: none;
+
+}
+
+
+
+.top-menu-xs li.search-bar {
+
+    padding-top: 10px;
+
+    padding-bottom: 10px;
+
+    padding-left: 20px;
+
+    padding-right: 20px;
+
+}
+
+
+
+.top-menu-xs li.search-bar form > div {
+
+    display: table;
+
+    padding-bottom: 10px;
+
+    padding-top: 10px;
+
+    border: 1px solid #f0f0f0;
+
+    border-radius: 5px;
+
+    width: 100%; 
+
+}
+
+
+
+.top-menu-xs li.search-bar form > div > div:first-child {
+
+    padding-left: 10px;
+
+    width: 100%;
+
+}
+
+
+
+.top-menu-xs li.search-bar input {
+
+    border: none;
+
+    outline: none;
+
+    padding: 0;
+
+    width: 100%;
+
+    font-size: 17px;
+
+}
+
+
+
+.top-menu-xs li.search-bar form > div > div {
+
+    display: table-cell;
+
+}
+
+
+
+.top-menu-xs li.search-bar button {
+
+    background-color: transparent;
+
+    border: none;
+
+    color: #f0f0f0;
+
+    padding: 0px 5px 0 0px;
+
+    vertical-align: middle;
+
+}
+
+
+
+.top-menu-xs li.search-bar button i {
+
+    font-size: 22px;
+
+}
+
+
+
+.top-menu-xs ul li form button:hover {
+
+    background-color: transparent;
+
+    color: #333333;
+
+}
+
+#heading {
+	margin: 30px 0;
+	padding-left: 500px;
+
+}
+.port img{
+	display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+}
+h1 {
+	display: inline-block;
+	color: #2190c1;
+	font: 50px/50px 'Oswald', fantasy;
+	text-align:center;
+	margin: 0;
+	padding: 0 10px;
+}
+
+.nav_text{
+
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 22px;
+    position: relative;
+    bottom: -25px;
+    right: -10px;
+
+    color: black;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.hom__text{
+    position: absolute;
+    left: 48%;
+    margin-left: -487px;
+
+
+}
+.header-bottom {
+
+    margin: 0px;
+    width: 100%;
+    height: 80px;
+    background:#fbf2d3;
+    display: block;
+
+}
+
+
+    /* Обнуляю отступы и убираю маркеры у списков. */
+    ul, li {
+        margin:0;
+        padding:0;
+        list-style-type:none;   
+    }
+
+    /* Задаю параметры для основного, родительского блока, меню выпадающего списка. */
+    #menu {
+
+display: inline-block;
+    vertical-align: top;
+    margin: 0 22px;
+    position: relative;
+    bottom: -18px;
+    right: -10px;
+
+    
+    font-size: 15px;
+    color: black;
+    text-decoration: none;
+    }
+#menu li{
+    /* Выравнивание! */
+    float: left;
+    /* Делаю элементы блочными. */
+    display: block;
+    color: #fff;
+
+    background-color: #f98561;
+
+    border: none;
+
+    padding: 3px 30px;    
+
+    border-radius: 0px;
+
+    /* Отступ. */
+    margin-right: 10;
+    /* Позиционирование относительно исходного места! */
+    position: relative;
+}
+
+
+
+    /* Задаю стили для блоков выпадающего списка. */
+    #menu > li {
+        display:inline-block;
+        height:30px;
+    /* Считаем координаты относительно исходного места. */
+        position:relative;
+    }
+
+    /* Задаю стили, чтобы скрыть дочерние блоки выпадающего списка. Ну и немного украшаю. */
+    #menu > li > ul {
+        position:absolute;
+        top:20px;
+        left: 0px;
+        display:none;
+        background-color: #f98561;
+        border-radius: 0px;
+        width: 120px;
+        font-size: 16px;
+        padding: 10 0 10 10;
+    }
+
+    /* Так я делаю прежде скрытую часть видимой — при наведении курсора. */
+    #menu > li:hover > ul {
+        display:block;  
+    }
+
+.home{
+    position:absolute;
+    bottom: -10pt;
+    padding-left: 870px;
+}
+.kv{
+    position:absolute;
+    bottom: -10pt;
+    padding-left: 900px;
+}
+
+
+/*****************  PORTFOLIO  ***************/
+
+
+
+#portfolio {
+
+    background-color: #f4f4f4;
+
+    padding-top: 50px;
+
+    padding-left:30px;
+    
+
+}
+
+
+
+
+#portfolio .image .thumbnail {
+
+    position: relative;
+
+    height: 220px;
+
+    max-width: 280px;
+
+    margin: 0 auto;
+
+    background-color: #bebebe;
+
+    border: 10px solid #fff;
+
+    border-radius: 0;
+
+    cursor: pointer;
+    margin-right: 10px; /* Отступ справа */
+    margin-bottom: 60px; /* Отступ снизу */
+
+}
+
+
+
+#portfolio .image .thumbnail > img {
+
+    position: absolute;
+
+    margin: auto;
+
+    left: 0;
+
+    top: 0;
+
+    bottom: 0px;
+
+    right: 0;
+
+}
+
+
+
+#portfolio .image .thumbnail a button img {
+
+    padding-right: 10px;
+
+}
+
+
+
+#portfolio .image .thumbnail a button {
+
+    display: none;
+
+    font-family: 'BreeSerif';
+
+    font-size: 17px;
+
+    color: #fff;
+
+    background-color: transparent;
+
+    border: 1px solid #fff;
+
+    border-radius: 5px;
+
+    padding: 5px 15px;
+
+    position: absolute;
+
+    top: 50%;
+
+    left: 50%;
+
+    margin-top: -22px;
+
+    margin-left: -64px;
+
+}
+
+
+
+#portfolio .image .thumbnail:hover > img {
+
+    display: none;
+
+}
+
+
+
+#portfolio .image .thumbnail:hover a button {
+
+    display: block;
+
+}
+
+
+
+#portfolio .image .text  {
+
+    max-width: 280px;
+
+    margin: 0 auto;
+
+}
+
+
+
+/**********  ABOUT  ************/
+
+
+
+#about {
+
+    background-color: #f4f4f4;
+
+    padding-top: 10px;
+
+}
+
+#about .k{
+	background-color: #f4f4f4;
+
+    padding-top: 50px;
+
+    padding-left:500px;
+    
+}
+
+
+ h2 {
+	display: inline-block;
+	color: #2190c1;
+	font: 30px/30px 'Oswald', fantasy;
+	text-align:center;
+	margin: 0;
+	padding: 0 550px;
+	padding-top:70px;
+}
+
+#about .box {
+
+    max-width: 2000px;
+
+    padding-top: 0px;
+
+}
+
+#about .h {
+	display: inline;
+
+    height: 20px;
+
+    max-width: 280px;
+
+    margin: auto;
+
+  
+  padding-left:80px;
+    cursor: pointer;
+}
+
+#about .line {
+
+    width: 100%;
+
+    height: 1px;
+
+    background-color: #d9d9d9;
+
+    margin-top: 20px;
+
+    margin-bottom: 20px;
+
+}
+
+
+
+
+
+#about h4 {
+
+    font-family: 'BebasBold';
+
+    font-size: 30px;
+
+    color: #2190c1;
+
+    letter-spacing: 1px;
+
+    text-align: center;
+
+    padding-bottom: 10px;
+
+}
+
+
+
+#about h5 {
+
+    font-family: 'BreeSerif', sans-serif;
+
+    color: #515862;
+
+    text-align: center;
+
+}
+
+
+
+#about .people {
+
+    text-align: center;
+
+    padding-top: 40px;
+
+
+
+}
+
+
+
+#about .people p {
+
+    font-family: 'Ubuntu', sans-serif;
+
+    color: #f98561;
+
+    font-size: 14px;
+
+}
+
+
+
+#about .people p span {
+
+    font-family: 'UbuntuBold', sans-serif;
+
+    color: #f98561;
+
+    font-size: 14px;
+
+}
+
+
+
+#about .people ul li {
+
+    padding: 10px 1px;
+
+    cursor: pointer;
+
+}
+
+
+
+#about .people a {
+
+    position: absolute;
+
+    margin-bottom: 60px; 
+
+}
+
+
+
+#about .people ul {
+
+    padding-left: 0;
+
+}
+
+
+
+#about .people ul li {
+
+    display: inline;
+
+    width: 74px; 
+
+}
+
+
+
+#about .people ul li .target-1,
+
+#about .people ul li .target-2 {
+
+    position: absolute;
+
+    padding: 0;
+
+    margin-left: -70px;
+
+}
+
+
+
+#about .people ul li .target-3 {
+
+    position: absolute;
+
+    padding: 0;
+
+    margin-left: -67px;
+
+}
+
+
+
+#about .people ul li img.source {
+
+    padding-bottom: 10px;
+
+    border-bottom: 7px solid #c1c1c1;
+
+}
+
+
+
+#about .people ul li img.target {
+
+    padding-bottom: 10px;
+
+    border-bottom: 7px solid #f98561;
+
+}
+
+
+
+/************ CONTAST  *************/
+
+
+
+#contact {
+
+    background-color: #2e3e4f;
+
+    padding-top: 15px;
+
+    padding-bottom: 30px;
+
+}
+
+
+
+#contact .row {
+
+    padding-left: 40px;
+
+    padding-right: 40px;
+
+}
+
+
+
+#contact h3 {
+
+    font-family: 'BebasNeue';
+
+    color: #f98561;
+
+    padding-bottom: 10px;
+
+}
+
+
+
+#contact p {
+
+    font-family: 'Ubuntu', sans-serif;
+
+    font-size: 12px;
+
+    color: #a3afb2;
+
+    margin-bottom: 0;
+
+}
+
+
+
+#contact a {
+
+    color: #2190c1;
+
+}
+
+
+
+#contact hr {
+
+    border: none;
+
+    height: 1px;
+
+    background-color: #556270;
+
+    margin: 10px 0;
+
+}
+
+
+
+#contact span {
+
+    font-size: 13px;
+
+    color: #2190c1;
+
+}
+
+
+
+#contact form input {
+
+    width: 100%;
+
+    border: none;
+
+    border-radius: 4px;
+
+    height: 25px;
+
+    margin-top: 10px;
+
+    margin-bottom: 15px;
+
+}
+
+
+
+#contact form button {
+
+    font-family: 'Ubuntu', sans-serif;
+
+    font-size: 13px;
+
+    float: right;
+
+    background-color: #2190c1;
+
+    border: none;
+
+    color: #fff;
+
+    border-radius: 4px;
+
+    padding: 4px 12px;
+
+}
+
+
+
+#contact form button:hover {
+
+    background-color: #f98561;
+
+    transition: 0.3s;
+
+}
+
+
+
+#contact img {
+
+    float: left;
+
+    margin-right: 10px;
+
+}
+
+
+
+ #contact .col-lg-3 div {
+
+    max-height: 50px;
+
+    overflow: hidden;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/******************* MEDIA *********************/
+
+
+
+
+
+/* Extra Small - XS Phones */
+
+@media(min-width: 320px) and (max-width : 479px) {
+
+	
+
+    .top-menu {
+
+        display: none;
+
+    }
+
+
+
+    .top-menu-xs {
+
+        display: block;
+
+    }
+
+
+
+    .slider p {
+
+        line-height: 1;
+
+    }
+
+
+
+    .slider .carousel-indicators {
+
+        display: none;
+
+    }
+
+
+
+    .slider h2 {
+
+        font-size: 50px;
+
+    }
+
+
+
+    #portfolio .image .text {
+
+        padding-bottom: 30px;
+
+    }
+
+
+
+    #about .container > p {
+
+        line-height: 1;
+
+    }
+
+
+
+    #about .box {
+
+        text-align: center;
+
+        margin: 0 auto;
+
+    }
+
+
+
+     #contact hr {
+
+        display: none;
+
+    }
+
+
+
+    #contact h3 {
+
+        padding-bottom: 0;
+
+    }
+
+
+
+    #contact form input {
+
+        width: 80%;
+
+    }
+
+
+
+    #contact form button {
+
+        float: none;
+
+        margin-bottom: 10px;
+
+    }
+
+
+
+     #contact form button {
+
+        margin-bottom: 5px;
+
+    }
+
+
+
+     #contact .col-lg-3 div {
+
+        margin-bottom: 15px;
+
+    }
+
+
+
+     #arrowup {
+
+        visibility: hidden;
+
+    }
+
+
+
+}
+
+
+
+/* Extra Small - XS, Tablets */
+
+@media(min-width: 480px) and (max-width : 767px) {
+
+
+
+    .top-menu {
+
+        display: none;
+
+    }
+
+
+
+    .top-menu-xs {
+
+        display: block;
+
+    }
+
+
+
+    .slider p {
+
+        line-height: 1;
+
+    }
+
+
+
+    .slider .carousel-indicators {
+
+        margin-left: 25%;
+
+    }
+
+
+
+    #portfolio .image .text {
+
+        padding-bottom: 30px;
+
+    }
+
+
+
+    #about .container > p {
+
+        line-height: 1;
+
+    }
+
+
+
+    #about .box {
+
+        text-align: center;
+
+        margin: 0 auto;
+
+    }
+
+
+
+    #contact {
+
+        text-align: center;
+
+    }
+
+
+
+    #contact h3 {
+
+        padding-bottom: 0;
+
+    }
+
+
+
+    #contact form input {
+
+        width: 50%;
+
+    }
+
+
+
+    #contact form button {
+
+        float: none;
+
+        margin-bottom: 10px;
+
+    }
+
+
+
+   #contact img {
+
+        margin-right: 0;
+
+       
+
+    }
+
+
+
+    #contact .col-lg-3 div {
+
+        max-height: 50px;
+
+        overflow: hidden;
+
+        width: 50%;
+
+        margin: 0 auto;
+
+        margin-bottom: 15px;
+
+    }
+
+
+
+     #contact hr {
+
+        display: none;
+
+    }
+
+		
+
+}
+
+
+
+/* Small - SM */
+
+@media(min-width: 768px) and (max-width : 991px) {
+
+
+
+    .top-menu img {
+
+        padding-left: 0px;
+
+    }
+
+
+
+    .top-menu .nav {
+
+        padding-left: 0px;
+
+    }
+
+
+
+    .top-menu .nav li a {
+
+        padding: 30px 10px 15px 10px;
+
+        margin-left: -11px;
+
+    }
+
+
+
+    .top-menu .nav button {
+
+        padding: 3px 10px;
+
+    }
+
+
+
+    .top-menu .search input[type="image"] {
+
+        right: 37px;
+
+    }
+
+
+
+    #portfolio .top {
+
+        padding-left: 0;
+
+        padding-right: 0;
+
+    }
+
+
+
+    #about .row {
+
+        padding-left: 0;
+
+        padding-right: 0;
+
+    }
+
+
+
+    #contact .row {
+
+        padding-left: 0;
+
+        padding-right: 0;
+
+    }
+
+
+
+    #contact a {
+
+        font-size: 9px;
+
+    }
+
+	
+
+}
+
+
+
+/* Medium - MD */
+
+@media(min-width: 992px) and (max-width : 1199px) {
+
+	
+
+    .top-menu img {
+
+        padding-left: 70px;
+
+    }
+
+
+
+    .top-menu .search {
+
+        padding-left: 10px;
+
+    }
+
+
+
+    .top-menu .search input[type="image"] {
+
+        right: 112px;
+
+    }
+
+
+
+    .top-menu .nav {
+
+        padding-left: 30px;
+
+    }
+
+
+
+    .top-menu .nav button {
+
+        padding: 3px 14px;
+
+    }
+
+
+
+    #about .row {
+
+        padding-left: 0;
+
+        padding-right: 0;
+
+    }
+
+
+
+    #contact .row {
+
+        padding-left: 0;
+
+        padding-right: 0;
+
+    }
+
+
+
+}
+
+
+
